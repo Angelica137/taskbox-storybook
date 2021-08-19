@@ -26,3 +26,11 @@ Pinned.args = {
         state: 'TASK_PINNED',
     },
 };
+
+export const Archived = Template.bind({});
+Archived.args = {
+    task: {
+        ...Default.args.task,
+        state: 'TASK_ARCHIVED',
+    },
+};
